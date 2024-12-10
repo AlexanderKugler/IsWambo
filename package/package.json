@@ -1,0 +1,22 @@
+{
+  "name": "is-wambo",
+  "version": "1.0.0",
+  "description": "Is the String Wambo?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderKugler/IsWambo.git"
+  },
+  "keywords": [
+    "Wambo"
+  ],
+  "author": "AlexanderK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderKugler/IsWambo/issues"
+  },
+  "homepage": "https://github.com/AlexanderKugler/IsWambo#readme"
+}
