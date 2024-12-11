@@ -1,6 +1,6 @@
 {
   "name": "is-wambo",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Is the String Wambo?",
   "main": "index.js",
   "scripts": {
