@@ -1,5 +1,5 @@
 function isWambo(string) {
-    return string === 'Wambo'
+    return string.toLowerCase() === 'wambo';
 }
 
-module.exports = isWambo
+module.exports = isWambo;

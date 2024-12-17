@@ -18,6 +18,7 @@ Import the package and use the `isWambo` function:
 const isWambo = require('wambo-checker');
 
 console.log(isWambo('Wambo')); // true
+console.log(isWambo('wambo')); // true
 console.log(isWambo('wumbo')); // false
 console.log(isWambo('Patrick')); // false
 ```
