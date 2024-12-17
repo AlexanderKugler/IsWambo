@@ -40,7 +40,7 @@ For the uninitiated: **Wambo** is an iconic term from the SpongeBob episode "Shr
 ### `isWambo(input: string): boolean`
 
 - **input**: The string to be checked.
-- **Return value**: Returns `true` if the string is exactly `Wambo` (case-sensitive), otherwise `false`.
+- **Return value**: Returns `true` if the string is `Wambo` (case-insensitive), otherwise `false`.
 
 ## License 📄
 
