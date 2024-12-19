@@ -7,7 +7,7 @@ A lightweight NPM package that checks if a string is exactly 'Wambo'. Inspired b
 Install the package via NPM:
 
 ```bash
-npm install wambo-checker
+npm i is-wambo
 ```
 
 ## Usage 🚀
