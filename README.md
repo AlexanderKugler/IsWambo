@@ -4,6 +4,8 @@ A lightweight NPM package that checks if a string is exactly 'Wambo'. Inspired b
 
 ## Installation 📦
 
+[![Socket Badge](https://socket.dev/api/badge/npm/package/is-wambo/1.0.8)](https://socket.dev/npm/package/is-wambo/overview/1.0.8)
+
 Install the package via NPM:
 
 ```bash
