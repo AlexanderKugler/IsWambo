@@ -1,6 +1,6 @@
 # Wambo Checker 🕵️‍♀️🧽
 
-A lightweight NPM package that checks if a string is exactly 'Wambo'. Inspired by the legendary scene from SpongeBob SquarePants, this tool is perfect for all fans of Patrick, Mermaid Man, and the science of Wambology! 🐚🦸‍♂️
+A lightweight NPM package that checks if a string is 'Wambo' or if it isn't. Inspired by the legendary scene from SpongeBob SquarePants, this tool is perfect for all fans of Patrick, Mermaid Man, and the science of Wambology! 🐚🦸‍♂️
 
 ## Installation 📦
 
@@ -23,6 +23,11 @@ console.log(isWambo('Wambo')); // true
 console.log(isWambo('wambo')); // true
 console.log(isWambo('wumbo')); // false
 console.log(isWambo('Patrick')); // false
+
+console.log(isNotWambo('Wambo')); // false
+console.log(isNotWambo('wambo')); // false
+console.log(isNotWambo('wumbo')); // true
+console.log(isNotWambo('Patrick')); // true
 ```
 
 ## Why Wambo? 🤔
@@ -43,6 +48,11 @@ For the uninitiated: **Wambo** is an iconic term from the SpongeBob episode "Shr
 
 - **input**: The string to be checked.
 - **Return value**: Returns `true` if the string is `Wambo` (case-insensitive), otherwise `false`.
+
+### `isNotWambo(input: string): boolean`
+
+- **input**: The string to be checked.
+- **Return value**: Returns `false` if the string is `Wambo` (case-insensitive), otherwise `true`.
 
 ## License 📄
 
