@@ -1,5 +1,5 @@
 function isWambo(string) {
-     return string.toLowerCase() === 'wambo'; 
+    return string.toLowerCase() === 'wambo'; 
 }
 
 function isNotWambo(string) {
