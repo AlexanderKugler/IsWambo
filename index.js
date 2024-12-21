@@ -7,3 +7,4 @@ function isNotWambo(string) {
 }
 
 module.exports = isWambo;
+module.exports = isNotWambo;
