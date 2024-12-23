@@ -1,6 +1,6 @@
 {
   "name": "is-wambo",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Is the String Wambo?",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "Wambo"
   ],
   "author": "AlexanderK",
-  "license": "ISC",
+  "license": "Apache License Version 2.0.",
   "bugs": {
     "url": "https://github.com/AlexanderKugler/IsWambo/issues"
   },

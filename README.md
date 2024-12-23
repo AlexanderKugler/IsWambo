@@ -60,4 +60,4 @@ Version 2.0.
 
 ---
 
->Wambology: It's not just science, it's a way of life. 🌈🚀
+Wambology: It's not just science, it's a way of life. 🌈🚀
