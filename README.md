@@ -1,10 +1,10 @@
 # Wambo Checker 🕵️‍♀️🧽
 
+Socket Badge](https://socket.dev/api/badge/npm/package/is-wambo/1.0.8)](https://socket.dev/npm/package/is-wambo/overview/1.0.8)
+
 A lightweight NPM package that checks if a string is 'Wambo' or if it isn't. Inspired by the legendary scene from SpongeBob SquarePants, this tool is perfect for all fans of Patrick, Mermaid Man, and the science of Wambology! 🐚🦸‍♂️
 
 ## Installation 📦
-
-[![Socket Badge](https://socket.dev/api/badge/npm/package/is-wambo/1.0.8)](https://socket.dev/npm/package/is-wambo/overview/1.0.8)
 
 Install the package via NPM:
 
@@ -17,7 +17,6 @@ npm i is-wambo
 Import the package and use the `isWambo` function:
 
 ```javascript
-const isWambo = require('wambo-checker');
 
 console.log(isWambo('Wambo')); // true
 console.log(isWambo('wambo')); // true
@@ -56,8 +55,9 @@ For the uninitiated: **Wambo** is an iconic term from the SpongeBob episode "Shr
 
 ## License 📄
 
-This package is released under the ISC License.
+This package is released under the Apache License
+Version 2.0.
 
 ---
 
-Wambology: It's not just science, it's a way of life. 🌈🚀
+>Wambology: It's not just science, it's a way of life. 🌈🚀
