@@ -14,19 +14,28 @@ npm i is-wambo
 
 ## Usage 🚀
 
-Import the package and use the `isWambo` function:
+Import the package and use the functions:
 
 ```javascript
+const { isWambo, isNotWambo, isWamboCaseSensitive, isNotWamboCaseSensitive, isWamboWithCapitalW, isNotWamboWithCapitalW } = require('is-wambo');
 
 console.log(isWambo('Wambo')); // true
-console.log(isWambo('wambo')); // true
 console.log(isWambo('wumbo')); // false
-console.log(isWambo('Patrick')); // false
 
 console.log(isNotWambo('Wambo')); // false
-console.log(isNotWambo('wambo')); // false
 console.log(isNotWambo('wumbo')); // true
-console.log(isNotWambo('Patrick')); // true
+
+console.log(isWamboCaseSensitive('wambo')); // true
+console.log(isWamboCaseSensitive('Wambo')); // false
+
+console.log(isNotWamboCaseSensitive('wambo')); // false
+console.log(isNotWamboCaseSensitive('Wambo')); // true
+
+console.log(isWamboWithCapitalW('Wambo')); // true
+console.log(isWamboWithCapitalW('wambo')); // false
+
+console.log(isNotWamboWithCapitalW('Wambo')); // false
+console.log(isNotWamboWithCapitalW('wambo')); // true
 ```
 
 ## Why Wambo? 🤔
@@ -52,6 +61,26 @@ For the uninitiated: **Wambo** is an iconic term from the SpongeBob episode "Shr
 
 - **input**: The string to be checked.
 - **Return value**: Returns `false` if the string is `Wambo` (case-insensitive), otherwise `true`.
+
+### `isWamboCaseSensitive(input: string): boolean`
+
+- **input**: The string to be checked.
+- **Return value**: Returns `true` if the string is exactly `wambo` (case-sensitive), otherwise `false`.
+
+### `isNotWamboCaseSensitive(input: string): boolean`
+
+- **input**: The string to be checked.
+- **Return value**: Returns `false` if the string is exactly `wambo` (case-sensitive), otherwise `true`.
+
+### `isWamboWithCapitalW(input: string): boolean`
+
+- **input**: The string to be checked.
+- **Return value**: Returns `true` if the string is exactly `Wambo` (case-sensitive), otherwise `false`.
+
+### `isNotWamboWithCapitalW(input: string): boolean`
+
+- **input**: The string to be checked.
+- **Return value**: Returns `false` if the string is exactly `Wambo` (case-sensitive), otherwise `true`.
 
 ## License 📄
 
