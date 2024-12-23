@@ -1,6 +1,6 @@
 # Wambo Checker 🕵️‍♀️🧽
 
-Socket Badge](https://socket.dev/api/badge/npm/package/is-wambo/1.0.8)](https://socket.dev/npm/package/is-wambo/overview/1.0.8)
+[![Socket Badge](https://socket.dev/api/badge/npm/package/is-wambo/2.0.0)](https://socket.dev/npm/package/is-wambo/overview/2.0.0)
 
 A lightweight NPM package that checks if a string is 'Wambo' or if it isn't. Inspired by the legendary scene from SpongeBob SquarePants, this tool is perfect for all fans of Patrick, Mermaid Man, and the science of Wambology! 🐚🦸‍♂️
 
