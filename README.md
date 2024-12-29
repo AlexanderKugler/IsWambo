@@ -17,7 +17,7 @@ npm i is-wambo
 Import the package and use the functions:
 
 ```javascript
-const { isWambo, isNotWambo, isWamboCaseSensitive, isNotWamboCaseSensitive, isWamboWithCapitalW, isNotWamboWithCapitalW } = require('is-wambo');
+const { isWambo, isNotWambo, isWamboCaseSensitive, isNotWamboCaseSensitive, isWamboWithCapitalW, isNotWamboWithCapitalW, isWamboWithCapitalWCaseInsensitive, isNotWamboWithCapitalWCaseInsensitive, toWambo, toWamboWithCapitalW, toWAMBO } = require('is-wambo');
 
 console.log(isWambo('Wambo')); // true
 console.log(isWambo('wumbo')); // false
@@ -36,6 +36,16 @@ console.log(isWamboWithCapitalW('wambo')); // false
 
 console.log(isNotWamboWithCapitalW('Wambo')); // false
 console.log(isNotWamboWithCapitalW('wambo')); // true
+
+console.log(isWamboWithCapitalWCaseInsensitive('Wambo')); // true
+console.log(isWamboWithCapitalWCaseInsensitive('wambo')); // false
+
+console.log(isNotWamboWithCapitalWCaseInsensitive('Wambo')); // false
+console.log(isNotWamboWithCapitalWCaseInsensitive('wambo')); // true
+
+console.log(toWambo('anything')); // 'wambo'
+console.log(toWamboWithCapitalW('anything')); // 'Wambo'
+console.log(toWAMBO('anything')); // 'WAMBO'
 ```
 
 ## Why Wambo? 🤔
@@ -81,6 +91,31 @@ For the uninitiated: **Wambo** is an iconic term from the SpongeBob episode "Shr
 
 - **input**: The string to be checked.
 - **Return value**: Returns `false` if the string is exactly `Wambo` (case-sensitive), otherwise `true`.
+
+### `isWamboWithCapitalWCaseInsensitive(input: string): boolean`
+
+- **input**: The string to be checked.
+- **Return value**: Returns `true` if the string is `Wambo` (case-insensitive) and starts with a capital 'W', otherwise `false`.
+
+### `isNotWamboWithCapitalWCaseInsensitive(input: string): boolean`
+
+- **input**: The string to be checked.
+- **Return value**: Returns `false` if the string is `Wambo` (case-insensitive) and starts with a capital 'W', otherwise `true`.
+
+### `toWambo(input: string): string`
+
+- **input**: The string to be converted.
+- **Return value**: Returns the string `wambo`.
+
+### `toWamboWithCapitalW(input: string): string`
+
+- **input**: The string to be converted.
+- **Return value**: Returns the string `Wambo`.
+
+### `toWAMBO(input: string): string`
+
+- **input**: The string to be converted.
+- **Return value**: Returns the string `WAMBO`.
 
 ## License 📄
 
