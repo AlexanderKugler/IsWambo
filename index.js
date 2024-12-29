@@ -22,6 +22,26 @@ function isNotWamboWithCapitalW(string) {
   return string !== "Wambo";
 }
 
+function isWamboWithCapitalWCaseInsensitive(string) {
+  return string.toLowerCase() === "wambo" && string[0] === "W";
+}
+
+function isNotWamboWithCapitalWCaseInsensitive(string) {
+  return !(string.toLowerCase() === "wambo" && string[0] === "W");
+}
+
+function toWambo(string) {
+  return "wambo";
+}
+
+function toWamboWithCapitalW(string) {
+  return "Wambo";
+}
+
+function toWAMBO(string) {
+  return "WAMBO";
+}
+
 module.exports = {
   isWambo,
   isNotWambo,
@@ -29,4 +49,9 @@ module.exports = {
   isNotWamboCaseSensitive,
   isWamboWithCapitalW,
   isNotWamboWithCapitalW,
+  isWamboWithCapitalWCaseInsensitive,
+  isNotWamboWithCapitalWCaseInsensitive,
+  toWambo,
+  toWamboWithCapitalW,
+  toWAMBO,
 };
