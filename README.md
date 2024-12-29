@@ -6,7 +6,7 @@ A lightweight NPM package that checks if a string is 'Wambo' or if it isn't. Ins
 
 Install the package via NPM:
 
-[![Socket Badge](https://socket.dev/api/badge/npm/package/is-wambo/2.2.0)](https://socket.dev/npm/package/is-wambo/overview/2.2.0)
+[![Socket Badge](https://socket.dev/api/badge/npm/package/is-wambo/2.2.1)](https://socket.dev/npm/package/is-wambo/overview/2.2.1)
 
 ```bash
 npm i is-wambo
